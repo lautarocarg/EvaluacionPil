@@ -6,18 +6,17 @@ public class EvaluacionTecnicaPil {
         imprimirConsigna(1);
 
         int num1;
-        int num2;
-        int num3;
+        double num2;
+        boolean val3;
 
         imprimirConsigna(2);
 
         num1 = 46;
-        num2 = 56;
-        num3 = 80;
+        num2 = 56.5;
+        val3 = true;
 
-        float resultado1 = (float)(num1 + num2) / num3;
-        int resultado2 = num2 * num2 + num1;
-        imprimirConsigna(3);
+        int resultado1 = num1*num1;
+        double resultado2 = num2 * num2 + num1;
 
         // Desarrollo de la consigna 3.
         if(resultado1 > 100){
@@ -27,6 +26,8 @@ public class EvaluacionTecnicaPil {
         else{
             System.err.println("Error, condición falsa");
         }
+
+        imprimirConsigna(3);
 
         int valor = 10;
         System.out.println("Valor inicial= " + valor);
